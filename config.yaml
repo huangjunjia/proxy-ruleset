@@ -470,14 +470,14 @@ rule-providers:
     type: http
   CustomDirectRuleset:
     url: https://raw.githubusercontent.com/huangjunjia/proxy-ruleset/main/DirectRuleset.list
-    path: ./ruleset/Download.list
+    path: ./ruleset/DirectRuleset.list
     behavior: classical
     interval: 86400
     format: text
     type: http
   CustomRejectRuleset:
     url: https://raw.githubusercontent.com/huangjunjia/proxy-ruleset/main/RejectRuleset.list
-    path: ./ruleset/Download.list
+    path: ./ruleset/RejectRuleset.list
     behavior: classical
     interval: 86400
     format: text
