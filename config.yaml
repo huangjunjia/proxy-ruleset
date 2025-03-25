@@ -468,6 +468,14 @@ rule-providers:
     interval: 86400
     format: text
     type: http
+  CustomDirectRuleset:
+    url: https://raw.githubusercontent.com/huangjunjia/proxy-ruleset/main/DirectRuleset.list
+    path: ./ruleset/Download.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+    
 
 rules:
   - "RULE-SET,LocalAreaNetwork,🎯 全球直连"
@@ -502,3 +510,4 @@ rules:
   - "RULE-SET,Download,🎯 全球直连"
   - "GEOIP,CN,🎯 全球直连"
   - "MATCH,🐟 漏网之鱼"
+  - "RULE-SET,CustomDirectRuleset,🎯 全球直连"
