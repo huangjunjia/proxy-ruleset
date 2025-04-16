@@ -4,3 +4,5 @@ DOMAIN-SUFFIX,smtx.io
 DOMAIN-SUFFIX,iomesh.io
 DOMAIN-SUFFIX,gptapi.us
 DOMAIN-SUFFIX,arcfra.com
+DOMAIN,imap.gmail.com
+DOMAIN,smtp.gmail.com
