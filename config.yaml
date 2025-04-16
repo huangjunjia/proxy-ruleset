@@ -258,6 +258,13 @@ proxy-groups:
     type: select
 
 rule-providers:
+  CustomMailServiceDirectRuleset:
+    url: https://raw.githubusercontent.com/huangjunjia/proxy-ruleset/main/MailServiceDirectRuleset.list
+    path: ./ruleset/MailServiceDirectRuleset.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
   LocalAreaNetwork:
     url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
     path: ./ruleset/LocalAreaNetwork.list
