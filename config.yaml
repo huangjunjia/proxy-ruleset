@@ -499,6 +499,9 @@ rule-providers:
     
 
 rules:
+  - "RULE-SET,CustomDirectRuleset,🎯 全球直连"
+  - "RULE-SET,CustomRejectRuleset,🍃 应用净化"
+  - "RULE-SET,Ai,🇺🇲 美国节点"
   - "RULE-SET,CustomMailServiceDirectRuleset,🎯 全球直连"
   - "RULE-SET,LocalAreaNetwork,🎯 全球直连"
   - "RULE-SET,UnBan,🎯 全球直连"
@@ -530,8 +533,5 @@ rules:
   - "RULE-SET,ChinaDomain,🎯 全球直连"
   - "RULE-SET,ChinaCompanyIp,🎯 全球直连"
   - "RULE-SET,Download,🎯 全球直连"
-  - "RULE-SET,CustomDirectRuleset,🎯 全球直连"
-  - "RULE-SET,CustomRejectRuleset,🍃 应用净化"
-  - "RULE-SET,Ai,🇺🇲 美国节点"
   - "GEOIP,CN,🎯 全球直连"
   - "MATCH,🐟 漏网之鱼"
